@@ -3,12 +3,12 @@
 [![.NET 8](https://img.shields.io/badge/.NET-8-blue.svg)](https://dotnet.microsoft.com/download/dotnet/8.0)
 [![C# 12](https://img.shields.io/badge/C%23-12-purple.svg)](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-12)
 [![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
-[![Made with Love by Leandro Francisco da Costa](https://img.shields.io/badge/Made%20with%20Love%20by-Leandro%20Francisco%20da%20Costa-ff69b4)](https://github.com/yourusername) 
+[![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
+[![Made with Love by Leandro Francisco da Costa](https://img.shields.io/badge/Made%20with%20Love%20by-Leandro%20Francisco%20da%20Costa-ff69b4)](https://github.com/franciscostein) 
 
 ---
 
-**RhinoForge.API**: A state-of-the-art .NET 8 REST API meticulously crafted to serve as a robust backend for managing a comprehensive inventory of **European heavy-duty, off-road, and military trucks**. This project is a senior developer's study case, designed to showcase advanced skills in building high-performance, maintainable, and scalable enterprise-grade solutions.
+**RhinoForge.API**: A .NET 8 REST API crafted to serve as a robust backend for managing a comprehensive inventory of **European heavy-duty, off-road, and military trucks**. This project is a study case, designed to showcase advanced skills in building high-performance, maintainable, and scalable enterprise-grade solutions.
 
 ---
 
@@ -57,11 +57,11 @@ This project leverages the most current and recommended technologies and pattern
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/RhinoForge.API.git](https://github.com/your-username/RhinoForge.API.git)
+    git clone [https://github.com/your-username/RhinoForge.git](https://github.com/franciscostein/RhinoForge.git)
     cd RhinoForge.API
     ```
 2.  **Set up Docker (Recommended):**
-    Ensure Docker Desktop is running. This project includes `docker-compose.yml` for easily spinning up PostgreSQL, Redis, and RabbitMQ.
+    Ensure Docker Desktop is running. This project includes `docker-compose.yml` for easily spinning up MongoDB, Redis, and RabbitMQ.
     ```bash
     docker-compose up -d
     ```
@@ -72,9 +72,8 @@ This project leverages the most current and recommended technologies and pattern
     ```
 4.  **Run the API:**
     ```bash
-    dotnet run --project YourProject.API
+    dotnet run --project RhinoForge.API
     ```
-    (Replace `YourProject.Infrastructure` and `YourProject.API` with your actual project names inside the solution if different)
 5.  **Access Swagger UI:**
     Once running, navigate to `https://localhost:7001/swagger` (or your configured port) in your browser to explore the API endpoints interactively.
 
@@ -92,7 +91,7 @@ While primarily a personal study case, feedback and suggestions are welcome. Fee
 ## 👤 Author
 
 **Leandro Francisco da Costa**
-* [GitHub Profile](https://github.com/yourusername) - (Replace `yourusername` with your actual GitHub username)
-* [LinkedIn Profile](https://www.linkedin.com/in/yourlinkedinprofile) - (Optional: Add your LinkedIn profile URL)
+* [GitHub Profile](https://github.com/franciscostein)
+* [LinkedIn Profile](https://www.linkedin.com/in/leandrofdcosta)
 
 ---
