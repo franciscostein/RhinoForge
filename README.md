@@ -4,7 +4,7 @@
 [![C# 12](https://img.shields.io/badge/C%23-12-purple.svg)](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-12)
 [![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
 [![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
-[![Made with Love by Leandro Francisco da Costa](https://img.shields.io/badge/Made%20with%20Love%20by-Leandro%20Francisco%20da%20Costa-ff69b4)](https://github.com/franciscostein) 
+[![Made with Love by Leandro Costa](https://img.shields.io/badge/Made%20with%20Love%20by-Leandro%20Francisco%20da%20Costa-ff69b4)](https://github.com/franciscostein) 
 
 ---
 
