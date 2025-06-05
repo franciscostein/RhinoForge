@@ -1,6 +1,15 @@
-var builder = WebApplication.CreateBuilder(args);
-var app = builder.Build();
+namespace RhinoForge.API
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            var builder = WebApplication.CreateBuilder(args);
+            var app = builder.Build();
 
-app.MapGet("/", () => "Hello World!");
+            app.MapGet("/", () => "Welcome to RhinoForge API 🚛");
 
-app.Run();
+            app.Run();
+        }
+    }
+}
