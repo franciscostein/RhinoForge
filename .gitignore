@@ -1,0 +1,90 @@
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / JetBrains
+.idea/
+
+# VS Code
+.vscode/
+
+# Visual Studio working folder
+.vs/
+
+# Dotnet specific
+*.dbmdl
+*.pdb
+*.mdb
+*.opendb
+
+# Logs
+*.log
+
+# NCrunch
+_NCrunch_*
+.*crunch*.local.xml
+
+# NUnit
+*.VisualState.xml
+TestResult.xml
+TestResults/
+
+# Coverage
+coverage/
+*.coverage
+*.coveragexml
+*.lcov
+*.clover
+*.json
+*.cobertura.xml
+
+# Reports
+reports/
+
+# Packages
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+# EF Core Migrations history
+MigrationsHistory/
+
+# Local secrets
+secrets.json
+
+# ASP.NET Identity
+*.db
+
+# dotenv environment files
+.env
+.env.*
+
+# Local docker files
+**/docker-compose.override.yml
+docker-compose.override.yml
+
+# Terraform / Infra
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# System files
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# Backup files
+*.bak
+*.swp
+*.tmp
